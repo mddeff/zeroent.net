@@ -4,7 +4,8 @@ title: "Mike D"
 draft: false
 ---
 
+---
 
 
 # Mike D
-`IT Systems Architect // Maker // Yak Barber`
+IT Systems Architect // Maker // Technical Debt Consolidator // [Yak Barber](https://en.wiktionary.org/wiki/yak_shaving)

@@ -4,9 +4,9 @@ title: "Contact"
 draft: false
 ---
 
-I can be reached at [mike@zeroent.net](mailto:mike@zeroent.net).
+Email: [mike@zeroent.net](mailto:mike@zeroent.net).
 
-  
+
 
 
 # Resume

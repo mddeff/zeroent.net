@@ -58,6 +58,6 @@ paginate     = 10
     name       = "Contact/Resume"
     url        = "/contact"
   [[menu.main]]
-    identifier = "youtube"
-    name       = "YouTube"
-    url        = "https://yt.schemesandnotions.io"
+    identifier = "san"
+    name       = "schemesandnotions.io"
+    url        = "san"

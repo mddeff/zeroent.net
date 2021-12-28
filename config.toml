@@ -51,7 +51,7 @@ paginate     = 10
   # And you can even create generic menu
   [[menu.main]]
     identifier = "manpage"
-    name       = "Manual Page"
+    name       = "About Me (man page)"
     url        = "/man"
   [[menu.main]]
     identifier = "contact"
@@ -59,5 +59,5 @@ paginate     = 10
     url        = "/contact"
   [[menu.main]]
     identifier = "san"
-    name       = "schemesandnotions.io"
-    url        = "san"
+    name       = "Blog"
+    url        = "https://schemesandnotions.io/"

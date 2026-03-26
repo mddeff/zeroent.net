@@ -58,6 +58,10 @@ paginate     = 10
     name       = "Contact/Resume"
     url        = "/contact"
   [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+  [[menu.main]]
     identifier = "san"
     name       = "Blog"
     url        = "https://schemesandnotions.io/"

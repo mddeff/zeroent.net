@@ -1,0 +1,71 @@
+[project]
+site_name    = "Mike D"
+site_url     = "https://zeroent.net"
+site_description = "IT Systems Architect // Maker // Technical Debt Consolidator // Yak Barber"
+site_author  = "Mike D"
+copyright    = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+
+
+# Navigation — maps to your Hugo content/ pages
+nav = [
+  { "Home"            = "index.md"    },
+  { "About Me"        = "man.md"      },
+  { "Contact / Resume" = "contact.md" },
+  { "Projects"        = "projects.md" },
+]
+
+# ── Plugins ────────────────────────────────────────────────────────────────
+[project.plugins.search]
+enabled = false
+
+# ── Theme ──────────────────────────────────────────────────────────────────
+[project.theme]
+language = "en"
+
+features = [
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.tabs",
+  "navigation.top",
+  "content.code.copy",
+  "content.code.annotate",
+]
+
+# Dark-first with a toggle, matching your old defaultTheme = "dark"
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: dark)"
+scheme      = "slate"
+primary     = "black"
+accent      = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media       = "(prefers-color-scheme: light)"
+scheme      = "default"
+primary     = "black"
+accent      = "indigo"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+[project.theme.icon]
+logo = "fontawesome/solid/dumpster-fire"
+
+# ── Markdown extensions ────────────────────────────────────────────────────
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.pymdownx.highlight]
+auto_title = true
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+# ── Social / Extra ─────────────────────────────────────────────────────────
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/mddeff"
+name = "mddeff on GitHub"
